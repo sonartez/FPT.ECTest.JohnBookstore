@@ -26,6 +26,7 @@ WebAPI for Interview
 - API for find books with text input
 - API for get a book detail by use ISBNCode
 - API for place a order and update number of available books instock
+- 
 ### Additional APIs
 - API for create new shop
 - API for import books to system with a xmlfile. Sample file for testing here [Books.xml](https://github.com/sonartez/FPT.ECTest.JohnBookstore/blob/main/resources/Books.xml)
@@ -33,6 +34,7 @@ WebAPI for Interview
 ### Other APIs
 - APIs for Identity services
 - APIs for get Meta Info
+
 **Testing**
 - API Version = 1.0
 - Default users.
