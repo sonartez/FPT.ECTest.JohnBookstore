@@ -1,7 +1,7 @@
 # FPT.ECTest.JohnBookstore
 WebAPI for Interview
 
-> This Api will be responsible for overall data distribution and authorization.
+> This WebAPI create follow requirement of John Doe to support his bussiness SPA.
 > This Application create use ASP.NET Core WebAPI Clean Architecture extension for Visual Studio [more details](https://marketplace.visualstudio.com/items?itemName=MukeshMurugan.CleanArchitectureWebApi)
 
 ### .NET 
@@ -26,7 +26,7 @@ WebAPI for Interview
 - API for find books with text input
 - API for get a book detail by use ISBNCode
 - API for place a order and update number of available books instock
-- 
+
 **Additional APIs**
 - API for create new shop
 - API for import books to system with a xmlfile. Sample file for testing here [Books.xml](https://github.com/sonartez/FPT.ECTest.JohnBookstore/blob/main/resources/Books.xml)
