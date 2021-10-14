@@ -4,6 +4,7 @@ using FPT.ECTest.JohnBookstore.Application.Interfaces.Repositories;
 using FPT.ECTest.JohnBookstore.Application.Wrappers;
 using FPT.ECTest.JohnBookstore.Domain.Entities;
 using MediatR;
+using System.ComponentModel.DataAnnotations;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -13,6 +14,8 @@ namespace FPT.ECTest.JohnBookstore.Application.Features.Books.Commands.CreateBoo
     {
         public string ISBNCode { get; set; }
         public string ShopCode { get; set; }
+
+        [EmailAddress]
         public string Email { get; set; }
     }
     public class OrderBookCommandHandler : IRequestHandler<OrderBookCommand, Response<int>>

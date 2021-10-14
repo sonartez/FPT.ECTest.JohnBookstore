@@ -4,6 +4,7 @@ using FPT.ECTest.JohnBookstore.Application.Interfaces.Repositories;
 using FPT.ECTest.JohnBookstore.Application.Wrappers;
 using FPT.ECTest.JohnBookstore.Domain.Entities;
 using MediatR;
+using System.ComponentModel.DataAnnotations;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -14,6 +15,8 @@ namespace FPT.ECTest.JohnBookstore.Application.Features.Shops.Commands.CreateSho
         public string ShopCode { get; set; }
         public string ShopName { get; set; }
         public string Description { get; set; }
+
+        [EmailAddress]
         public string Email { get; set; }
         public string XMLTemplate { get; set; }
         public bool AllowUpdateViaEmail { get; set; }
