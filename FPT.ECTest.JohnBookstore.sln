@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{A133E328-C38C-4B19-A194-2191C3DD475F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{28A6A393-6EC0-4A94-A96A-81BCF6D8508E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPT.ECTest.JohnBookstore.WebApi", "FPT.ECTest.JohnBookstore.WebApi\FPT.ECTest.JohnBookstore.WebApi.csproj", "{21BFD7FA-0BE5-4A14-8D04-3C203DF5E72D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E8B4844E-1EB6-4F02-AC21-0447DF7756AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPT.ECTest.JohnBookstore.Application", "FPT.ECTest.JohnBookstore.Application\FPT.ECTest.JohnBookstore.Application.csproj", "{60BA8110-C1FD-442F-8FF8-B4B9710AF0B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPT.ECTest.JohnBookstore.Domain", "FPT.ECTest.JohnBookstore.Domain\FPT.ECTest.JohnBookstore.Domain.csproj", "{A0CDBBD8-FE78-418E-80BF-DA2ABB0F086C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{2093E8FB-B556-4F03-B4C6-F0D6D4BD6BBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPT.ECTest.JohnBookstore.Infrastructure.Identity", "FPT.ECTest.JohnBookstore.Infrastructure.Identity\FPT.ECTest.JohnBookstore.Infrastructure.Identity.csproj", "{DC125EE6-8302-4038-B02D-393BC72FB9F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPT.ECTest.JohnBookstore.Infrastructure.Persistence", "FPT.ECTest.JohnBookstore.Infrastructure.Persistence\FPT.ECTest.JohnBookstore.Infrastructure.Persistence.csproj", "{16BDB16E-F874-4EB2-A695-883770EE1AFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPT.ECTest.JohnBookstore.Infrastructure.Shared", "FPT.ECTest.JohnBookstore.Infrastructure.Shared\FPT.ECTest.JohnBookstore.Infrastructure.Shared.csproj", "{AB232086-E611-45AC-88A6-BAA5A2FBA203}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21BFD7FA-0BE5-4A14-8D04-3C203DF5E72D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BFD7FA-0BE5-4A14-8D04-3C203DF5E72D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BFD7FA-0BE5-4A14-8D04-3C203DF5E72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BFD7FA-0BE5-4A14-8D04-3C203DF5E72D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60BA8110-C1FD-442F-8FF8-B4B9710AF0B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60BA8110-C1FD-442F-8FF8-B4B9710AF0B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60BA8110-C1FD-442F-8FF8-B4B9710AF0B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60BA8110-C1FD-442F-8FF8-B4B9710AF0B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0CDBBD8-FE78-418E-80BF-DA2ABB0F086C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0CDBBD8-FE78-418E-80BF-DA2ABB0F086C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0CDBBD8-FE78-418E-80BF-DA2ABB0F086C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0CDBBD8-FE78-418E-80BF-DA2ABB0F086C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC125EE6-8302-4038-B02D-393BC72FB9F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC125EE6-8302-4038-B02D-393BC72FB9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC125EE6-8302-4038-B02D-393BC72FB9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC125EE6-8302-4038-B02D-393BC72FB9F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16BDB16E-F874-4EB2-A695-883770EE1AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16BDB16E-F874-4EB2-A695-883770EE1AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16BDB16E-F874-4EB2-A695-883770EE1AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16BDB16E-F874-4EB2-A695-883770EE1AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB232086-E611-45AC-88A6-BAA5A2FBA203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB232086-E611-45AC-88A6-BAA5A2FBA203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB232086-E611-45AC-88A6-BAA5A2FBA203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB232086-E611-45AC-88A6-BAA5A2FBA203}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28A6A393-6EC0-4A94-A96A-81BCF6D8508E} = {A133E328-C38C-4B19-A194-2191C3DD475F}
+		{21BFD7FA-0BE5-4A14-8D04-3C203DF5E72D} = {28A6A393-6EC0-4A94-A96A-81BCF6D8508E}
+		{E8B4844E-1EB6-4F02-AC21-0447DF7756AB} = {A133E328-C38C-4B19-A194-2191C3DD475F}
+		{60BA8110-C1FD-442F-8FF8-B4B9710AF0B9} = {E8B4844E-1EB6-4F02-AC21-0447DF7756AB}
+		{A0CDBBD8-FE78-418E-80BF-DA2ABB0F086C} = {E8B4844E-1EB6-4F02-AC21-0447DF7756AB}
+		{2093E8FB-B556-4F03-B4C6-F0D6D4BD6BBF} = {A133E328-C38C-4B19-A194-2191C3DD475F}
+		{DC125EE6-8302-4038-B02D-393BC72FB9F2} = {2093E8FB-B556-4F03-B4C6-F0D6D4BD6BBF}
+		{16BDB16E-F874-4EB2-A695-883770EE1AFB} = {2093E8FB-B556-4F03-B4C6-F0D6D4BD6BBF}
+		{AB232086-E611-45AC-88A6-BAA5A2FBA203} = {2093E8FB-B556-4F03-B4C6-F0D6D4BD6BBF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD9072E5-8D35-4D40-B43D-7075D269EDE1}
+	EndGlobalSection
+EndGlobal

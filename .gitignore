@@ -3,3 +3,17 @@
 ################################################################################
 
 /FPT.ECTest.JohnBookstore.Application/obj
+/FPT.ECTest.JohnBookstore.Application/bin/Debug/netstandard2.1
+/FPT.ECTest.JohnBookstore.Domain/bin/Debug/netstandard2.1
+/FPT.ECTest.JohnBookstore.Infrastructure.Identity/bin/Debug/netcoreapp3.1
+/FPT.ECTest.JohnBookstore.Domain/obj/Debug/netstandard2.1
+/FPT.ECTest.JohnBookstore.Domain/obj
+/FPT.ECTest.JohnBookstore.Infrastructure.Identity/obj
+/FPT.ECTest.JohnBookstore.Infrastructure.Persistence/bin/Debug/netcoreapp3.1
+/FPT.ECTest.JohnBookstore.Infrastructure.Persistence/obj/Debug/netcoreapp3.1
+/FPT.ECTest.JohnBookstore.Infrastructure.Persistence/obj/FPT.ECTest.JohnBookstore.Infrastructure.Persistence.csproj.nuget.dgspec.json
+/FPT.ECTest.JohnBookstore.Infrastructure.Persistence/obj
+/FPT.ECTest.JohnBookstore.Infrastructure.Shared/bin/Debug/netcoreapp3.1
+/FPT.ECTest.JohnBookstore.Infrastructure.Shared/obj
+/FPT.ECTest.JohnBookstore.WebApi/bin/Debug/netcoreapp3.1
+/FPT.ECTest.JohnBookstore.WebApi/obj
