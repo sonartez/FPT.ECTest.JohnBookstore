@@ -19,12 +19,11 @@ namespace FPT.ECTest.JohnBookstore.WebApi.Extensions
                 {
                     Version = "v1",
                     Title = "John Bookstore API - FPT.ECTest.JohnBookstore.WebApi",
-                    Description = "This Api will be responsible for overall data distribution and authorization.",
+                    Description = "This Api will be responsible for overall data distribution and authorization. <br /> This Application create use ASP.NET Core WebAPI Clean Architecture extension for Visual Studio ",
                     Contact = new OpenApiContact
                     {
                         Name = "linhdv6",
-                        Email = "linhdv6@fsoft.com.vn",
-                        Url = new Uri("https://codewithmukesh.com/contact"),
+                        Email = "linhdv6@fsoft.com.vn"
                     }
                 });
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme

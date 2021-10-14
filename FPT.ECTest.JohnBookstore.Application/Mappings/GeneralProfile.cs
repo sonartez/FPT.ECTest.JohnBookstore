@@ -2,6 +2,7 @@
 using FPT.ECTest.JohnBookstore.Application.Features.Books.Commands.CreateBook;
 using FPT.ECTest.JohnBookstore.Application.Features.Books.Queries.GetAllBooks;
 using FPT.ECTest.JohnBookstore.Application.Features.Books.Queries.GetBookByISBN;
+using FPT.ECTest.JohnBookstore.Application.Features.Shops.Commands.CreateShop;
 using FPT.ECTest.JohnBookstore.Domain.Entities;
 
 namespace FPT.ECTest.JohnBookstore.Application.Mappings
@@ -18,6 +19,10 @@ namespace FPT.ECTest.JohnBookstore.Application.Mappings
             CreateMap<Book, GetBookByISBNViewModel>();
             CreateMap<ShopBook, ShopBookViewModel>();
             CreateMap<OrderBookCommand, Order>();
+            CreateMap<XMLBook, Book>();
+            CreateMap<XMLBook, ShopBook>();
+            CreateMap<Shop, CreateShopCommand>().ReverseMap();
+
 
         }
     }
